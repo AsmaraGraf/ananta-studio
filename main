@@ -13,8 +13,9 @@
       section { margin-bottom:38px; }
       h2 { color:#1f6b3a; margin-bottom:12px; }
       .team { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
-      .card { background:#fff; border-radius:12px; padding:20px; box-shadow:0 6px 18px rgba(10,10,10,0.05); }
-      .card h3 { margin-top:0; color:#184e2a }
+      .card { background:#fff; border-radius:12px; padding:20px; box-shadow:0 6px 18px rgba(10,10,10,0.05); text-align:center; }
+      .card h3 { margin-top:10px; color:#184e2a }
+      .card img { width:80px; height:80px; border-radius:50%; margin-bottom:10px }
       .muted { color:#6c6c6c; font-size:0.95rem }
       ul { margin-top:6px }
       table { width:100%; border-collapse:collapse; margin-top:10px; font-size:0.95rem }
@@ -40,16 +41,19 @@
         <h2>Unser Team</h2>
         <div class="team">
           <div class="card">
+            <img src="https://img.icons8.com/ios-filled/100/000000/woman.png" alt="Susanne Icon"/>
             <h3>Susanne, 34 — Studioleitung</h3>
             <p class="muted">Susanne leitet das Studio mit einem warmen Lächeln und einem goldenen Händchen für Atmosphäre. Ihre Stunden (Hatha &amp; Pilates Flow) verbinden präzise Technik mit liebevoller Nähe: klare Ansagen, sinnvolle Progressionen und stets ein Teller selbstgebackener Kekse nach der Stunde — ein kleines Ritual, das ihr Unterrichtsgefühl abrundet. In ihren Kursen findest du strukturierte Sequenzen, die Kraft und Ruhe zugleich nähren.</p>
           </div>
 
           <div class="card">
+            <img src="https://img.icons8.com/ios-filled/100/000000/woman.png" alt="Asmara Icon"/>
             <h3>Asmara, 41 — Yoga &amp; Pilates</h3>
             <p class="muted">Asmara stammt aus Indonesien und bringt feine Elemente traditioneller Atem- und Achtsamkeitspraxis in ihre Stunden ein. Sie unterrichtet Yin Yoga, Pilates Matwork und Reformer-inspiriertes Pilates mit einem Fokus auf Atemfluss, Gelenkschonung und innerer Ruhe. Ihre Präsenz ist zugleich erdend und weit — ideal für alle, die Tiefe und Präzision suchen.</p>
           </div>
 
           <div class="card">
+            <img src="https://img.icons8.com/ios-filled/100/000000/woman.png" alt="Jasmin Icon"/>
             <h3>Jasmin, 39 — Vinyasa &amp; Entspannung</h3>
             <p class="muted">Jasmin bringt Temperament und Großherzigkeit in den Raum. Neben Vinyasa Flow und Yoga Nidra ist sie als leidenschaftliche Hundesitterin oft mit tierischer Lebensfreude unterwegs — das spürt man in ihren dynamischen, zugleich spielerischen Sequenzen. Ihre Stunden sind mutmachend, kreativ und voller Wärme.</p>
           </div>
@@ -58,7 +62,7 @@
 
       <section>
         <h2>Unsere Angebote</h2>
-        <h3>Yoga (4 Arten)</h3>
+        <h3>Yoga</h3>
         <ul class="muted">
           <li><strong>Hatha Yoga</strong> – Fundierte Basis mit Fokus auf Ausrichtung, Atem und nachhaltiger Kraft.</li>
           <li><strong>Vinyasa Flow</strong> – Atemgetragene, fließende Sequenzen für Kraft und Beweglichkeit.</li>
@@ -66,7 +70,7 @@
           <li><strong>Yoga Nidra</strong> – Geführte Tiefenentspannung, ideal zur Regeneration und Stressreduktion.</li>
         </ul>
 
-        <h3>Pilates (3 Arten)</h3>
+        <h3>Pilates</h3>
         <ul class="muted">
           <li><strong>Pilates Matwork</strong> – Core-zentriertes Training zur Stabilität und Haltung.</li>
           <li><strong>Pilates Flow</strong> – Fließende Sequenzen, die Kraft, Atmung und Koordination verbinden.</li>
@@ -76,29 +80,35 @@
 
       <section>
         <h2>Aktueller Stundenplan</h2>
-        <p class="muted">Mehrere Angebote pro Tag — melde dich per E-Mail oder Anruf an. (Dies ist eine statische Demo; für echte Buchungen lassen sich Tools wie Calendly oder ein Kalender-Backend anbinden.)</p>
+        <p class="muted">Dauer der Kurse ist jeweils angegeben. Anmeldung per E-Mail oder Telefon möglich.</p>
 
         <table>
           <thead>
-            <tr><th>Tag</th><th>Uhrzeit</th><th>Kurs</th><th>Trainerin</th></tr>
+            <tr><th>Tag</th><th>Uhrzeit</th><th>Dauer</th><th>Kurs</th><th>Trainerin</th></tr>
           </thead>
           <tbody>
-            <tr><td rowspan="2">Montag</td><td>09:00</td><td>Yin Yoga (Sanft &amp; Gelenkschonend)</td><td>Asmara</td></tr>
-            <tr><td>18:00</td><td>Hatha Yoga (Aufbau)</td><td>Susanne</td></tr>
-            <tr><td rowspan="3">Dienstag</td><td>07:30</td><td>Pilates Matwork (Morgen-Flow)</td><td>Asmara</td></tr>
-            <tr><td>12:00</td><td>Yin &amp; Restore (Mittagsentspannung)</td><td>Asmara</td></tr>
-            <tr><td>17:00</td><td>Reformer-inspiriertes Pilates (Kraft &amp; Präzision)</td><td>Asmara</td></tr>
-            <tr><td rowspan="2">Mittwoch</td><td>09:30</td><td>Pilates Flow (Mobilität)</td><td>Susanne</td></tr>
-            <tr><td>19:00</td><td>Vinyasa Flow (Dynamik)</td><td>Jasmin</td></tr>
-            <tr><td rowspan="2">Donnerstag</td><td>18:30</td><td>Pilates Flow (Abend)</td><td>Susanne</td></tr>
-            <tr><td>20:00</td><td>Yoga Nidra (Tiefenentspannung)</td><td>Jasmin</td></tr>
-            <tr><td rowspan="3">Freitag</td><td>08:30</td><td>Hatha Yoga (Morgen)</td><td>Susanne</td></tr>
-            <tr><td>10:30</td><td>Pilates Matwork (Core &amp; Haltung)</td><td>Asmara</td></tr>
-            <tr><td>18:00</td><td>Yin Yoga (Abend)</td><td>Asmara</td></tr>
-            <tr><td rowspan="2">Samstag</td><td>09:30</td><td>Vinyasa Flow (Energie)</td><td>Jasmin</td></tr>
-            <tr><td>11:00</td><td>Yoga Nidra (Lang)</td><td>Jasmin</td></tr>
-            <tr><td rowspan="2">Sonntag</td><td>09:30</td><td>Hatha Yoga (Sanft &amp; Aufbau)</td><td>Susanne</td></tr>
-            <tr><td>11:00</td><td>Pilates Flow (Stretch &amp; Strength)</td><td>Susanne</td></tr>
+            <tr><td rowspan="2">Montag</td><td>09:00</td><td>75 min</td><td>Yin Yoga (Sanft &amp; Gelenkschonend)</td><td>Asmara</td></tr>
+            <tr><td>18:00</td><td>60 min</td><td>Hatha Yoga (Aufbau)</td><td>Susanne</td></tr>
+
+            <tr><td rowspan="3">Dienstag</td><td>07:30</td><td>60 min</td><td>Pilates Matwork (Morgen-Flow)</td><td>Asmara</td></tr>
+            <tr><td>12:00</td><td>45 min</td><td>Yin &amp; Restore (Mittagsentspannung)</td><td>Asmara</td></tr>
+            <tr><td>17:00</td><td>75 min</td><td>Reformer-inspiriertes Pilates (Kraft &amp; Präzision)</td><td>Asmara</td></tr>
+
+            <tr><td rowspan="2">Mittwoch</td><td>09:30</td><td>60 min</td><td>Pilates Flow (Mobilität)</td><td>Susanne</td></tr>
+            <tr><td>19:00</td><td>60 min</td><td>Vinyasa Flow (Dynamik)</td><td>Jasmin</td></tr>
+
+            <tr><td rowspan="2">Donnerstag</td><td>18:30</td><td>60 min</td><td>Pilates Flow (Abend)</td><td>Susanne</td></tr>
+            <tr><td>20:00</td><td>45 min</td><td>Yoga Nidra (Tiefenentspannung)</td><td>Jasmin</td></tr>
+
+            <tr><td rowspan="3">Freitag</td><td>08:30</td><td>60 min</td><td>Hatha Yoga (Morgen)</td><td>Susanne</td></tr>
+            <tr><td>10:30</td><td>60 min</td><td>Pilates Matwork (Core &amp; Haltung)</td><td>Asmara</td></tr>
+            <tr><td>18:00</td><td>75 min</td><td>Yin Yoga (Abend)</td><td>Asmara</td></tr>
+
+            <tr><td rowspan="2">Samstag</td><td>09:30</td><td>60 min</td><td>Vinyasa Flow (Energie)</td><td>Jasmin</td></tr>
+            <tr><td>11:00</td><td>45 min</td><td>Yoga Nidra (Lang)</td><td>Jasmin</td></tr>
+
+            <tr><td rowspan="2">Sonntag</td><td>09:30</td><td>60 min</td><td>Hatha Yoga (Sanft &amp; Aufbau)</td><td>Susanne</td></tr>
+            <tr><td>11:00</td><td>60 min</td><td>Pilates Flow (Stretch &amp; Strength)</td><td>Susanne</td></tr>
           </tbody>
         </table>
       </section>
