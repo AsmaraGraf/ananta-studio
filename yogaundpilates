@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ananta Studio — Yoga & Pilates</title>
+    <style>
+      body { font-family: 'Helvetica Neue', Arial, sans-serif; margin:0; background:#fbfbfb; color:#222; }
+      header { text-align:center; padding:60px 20px; background:linear-gradient(135deg,#e8fbef,#fcfff9); }
+      header h1 { margin:0; font-size:2.6em; color:#1f6b3a; letter-spacing:0.6px }
+      header p { font-style:italic; margin-top:12px; color:#4a4a4a; max-width:800px; margin-left:auto; margin-right:auto }
+      main { max-width:1050px; margin:30px auto; padding:20px; }
+      section { margin-bottom:38px; }
+      h2 { color:#1f6b3a; margin-bottom:12px; }
+      .team { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+      .card { background:#fff; border-radius:12px; padding:20px; box-shadow:0 6px 18px rgba(10,10,10,0.05); }
+      .card h3 { margin-top:0; color:#184e2a }
+      .muted { color:#6c6c6c; font-size:0.95rem }
+      ul { margin-top:6px }
+      table { width:100%; border-collapse:collapse; margin-top:10px; font-size:0.95rem }
+      th,td { border:1px solid #eee; padding:10px; text-align:left }
+      th { background:#fafafa }
+      footer { text-align:center; padding:18px; font-size:0.9rem; color:#777; background:#f7f7f7 }
+      @media (max-width:700px){ header h1{font-size:1.8rem} }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ananta Studio</h1>
+      <p>„Ein ruhiger Atem. Ein klarer Körper. Ein Herz, das zuhause ankommt.“ — Wir verbinden achtsame Körperarbeit mit sanfter Kraft, damit du dich in deinem Körper wieder geborgen fühlst.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Über uns</h2>
+        <p class="muted">Im <strong>Ananta Studio</strong> nahe Linz (Wilhering) schaffen wir einen Raum, in dem Stille und Bewegung sich gegenseitig nähren. Ob du Ruhe suchst, Rückenstärke aufbauen möchtest oder deine Beweglichkeit erweitern willst — unsere Stunden sind persönlich, klar angeleitet und herzvoll gestaltet. Wir glauben daran, dass jede Praxis ein kleiner Anker im Alltag sein kann.</p>
+      </section>
+
+      <section>
+        <h2>Unser Team</h2>
+        <div class="team">
+          <div class="card">
+            <h3>Susanne, 34 — Studioleitung</h3>
+            <p class="muted">Susanne leitet das Studio mit einem warmen Lächeln und einem goldenen Händchen für Atmosphäre. Ihre Stunden (Hatha &amp; Pilates Flow) verbinden präzise Technik mit liebevoller Nähe: klare Ansagen, sinnvolle Progressionen und stets ein Teller selbstgebackener Kekse nach der Stunde — ein kleines Ritual, das ihr Unterrichtsgefühl abrundet. In ihren Kursen findest du strukturierte Sequenzen, die Kraft und Ruhe zugleich nähren.</p>
+          </div>
+
+          <div class="card">
+            <h3>Asmara, 41 — Yoga &amp; Pilates</h3>
+            <p class="muted">Asmara stammt aus Indonesien und bringt feine Elemente traditioneller Atem- und Achtsamkeitspraxis in ihre Stunden ein. Sie unterrichtet Yin Yoga, Pilates Matwork und Reformer-inspiriertes Pilates mit einem Fokus auf Atemfluss, Gelenkschonung und innerer Ruhe. Ihre Präsenz ist zugleich erdend und weit — ideal für alle, die Tiefe und Präzision suchen.</p>
+          </div>
+
+          <div class="card">
+            <h3>Jasmin, 39 — Vinyasa &amp; Entspannung</h3>
+            <p class="muted">Jasmin bringt Temperament und Großherzigkeit in den Raum. Neben Vinyasa Flow und Yoga Nidra ist sie als leidenschaftliche Hundesitterin oft mit tierischer Lebensfreude unterwegs — das spürt man in ihren dynamischen, zugleich spielerischen Sequenzen. Ihre Stunden sind mutmachend, kreativ und voller Wärme.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Unsere Angebote</h2>
+        <h3>Yoga (4 Arten)</h3>
+        <ul class="muted">
+          <li><strong>Hatha Yoga</strong> – Fundierte Basis mit Fokus auf Ausrichtung, Atem und nachhaltiger Kraft.</li>
+          <li><strong>Vinyasa Flow</strong> – Atemgetragene, fließende Sequenzen für Kraft und Beweglichkeit.</li>
+          <li><strong>Yin Yoga</strong> – Lang gehaltene Positionen zur Öffnung des Bindegewebes und inneren Einkehr.</li>
+          <li><strong>Yoga Nidra</strong> – Geführte Tiefenentspannung, ideal zur Regeneration und Stressreduktion.</li>
+        </ul>
+
+        <h3>Pilates (3 Arten)</h3>
+        <ul class="muted">
+          <li><strong>Pilates Matwork</strong> – Core-zentriertes Training zur Stabilität und Haltung.</li>
+          <li><strong>Pilates Flow</strong> – Fließende Sequenzen, die Kraft, Atmung und Koordination verbinden.</li>
+          <li><strong>Reformer-inspiriertes Pilates</strong> – Reformer-Elemente ohne Gerät: Widerstand, Kontrolle und Präzision.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Aktueller Stundenplan</h2>
+        <p class="muted">Mehrere Angebote pro Tag — melde dich per E-Mail oder Anruf an. (Dies ist eine statische Demo; für echte Buchungen lassen sich Tools wie Calendly oder ein Kalender-Backend anbinden.)</p>
+
+        <table>
+          <thead>
+            <tr><th>Tag</th><th>Uhrzeit</th><th>Kurs</th><th>Trainerin</th></tr>
+          </thead>
+          <tbody>
+            <tr><td rowspan="2">Montag</td><td>09:00</td><td>Yin Yoga (Sanft &amp; Gelenkschonend)</td><td>Asmara</td></tr>
+            <tr><td>18:00</td><td>Hatha Yoga (Aufbau)</td><td>Susanne</td></tr>
+            <tr><td rowspan="3">Dienstag</td><td>07:30</td><td>Pilates Matwork (Morgen-Flow)</td><td>Asmara</td></tr>
+            <tr><td>12:00</td><td>Yin &amp; Restore (Mittagsentspannung)</td><td>Asmara</td></tr>
+            <tr><td>17:00</td><td>Reformer-inspiriertes Pilates (Kraft &amp; Präzision)</td><td>Asmara</td></tr>
+            <tr><td rowspan="2">Mittwoch</td><td>09:30</td><td>Pilates Flow (Mobilität)</td><td>Susanne</td></tr>
+            <tr><td>19:00</td><td>Vinyasa Flow (Dynamik)</td><td>Jasmin</td></tr>
+            <tr><td rowspan="2">Donnerstag</td><td>18:30</td><td>Pilates Flow (Abend)</td><td>Susanne</td></tr>
+            <tr><td>20:00</td><td>Yoga Nidra (Tiefenentspannung)</td><td>Jasmin</td></tr>
+            <tr><td rowspan="3">Freitag</td><td>08:30</td><td>Hatha Yoga (Morgen)</td><td>Susanne</td></tr>
+            <tr><td>10:30</td><td>Pilates Matwork (Core &amp; Haltung)</td><td>Asmara</td></tr>
+            <tr><td>18:00</td><td>Yin Yoga (Abend)</td><td>Asmara</td></tr>
+            <tr><td rowspan="2">Samstag</td><td>09:30</td><td>Vinyasa Flow (Energie)</td><td>Jasmin</td></tr>
+            <tr><td>11:00</td><td>Yoga Nidra (Lang)</td><td>Jasmin</td></tr>
+            <tr><td rowspan="2">Sonntag</td><td>09:30</td><td>Hatha Yoga (Sanft &amp; Aufbau)</td><td>Susanne</td></tr>
+            <tr><td>11:00</td><td>Pilates Flow (Stretch &amp; Strength)</td><td>Susanne</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2025 Ananta Studio — Linzer Straße 10, 4073 Wilhering • Kontakt: info@anantastudio.at</p>
+    </footer>
+  </body>
+</html>
